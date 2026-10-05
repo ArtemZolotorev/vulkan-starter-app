@@ -12,7 +12,11 @@
 			"inherits": "common",
 			"binaryDir": "build-debug",
 			"cacheVariables": {
-				"CMAKE_BUILD_TYPE": "Debug"
+				"CMAKE_BUILD_TYPE": "Debug",
+				"Vulkan_INCLUDE_DIR": "D:/Vulkan/Include",
+				"Vulkan_LIBRARY": "D:/Vulkan/Lib/vulkan-1.lib",
+				"Vulkan_GLSLCompiler_EXECUTABLE": "D:/Vulkan/Bin/glslc.exe",
+				"Vulkan_GLSLANGValidator_EXECUTABLE": "D:/Vulkan/Bin/glslangValidator.exe"
 			}
 		},
 		{
